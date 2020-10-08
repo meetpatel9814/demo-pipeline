@@ -14,7 +14,7 @@ public class PipelineApplication {
 
 	@GetMapping("/")
 	public String defaultMethod() {
-		return "HOME PAGE";
+		return "HOME PAGE AFTER BUILD SUCCESS";
 	}
 
 	public static void main(String[] args) {
