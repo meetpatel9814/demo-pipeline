@@ -21,3 +21,6 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'build'
+
+- name: SonarCloud Scan
+  uses: SonarSource/sonarcloud-github-action@v1.4
