@@ -14,7 +14,7 @@ public class PipelineApplication {
 
 	@GetMapping("/")
 	public String defaultMethod() {
-		return "HOME PAGE AFTER BUILD SUCCESS";
+		return "HOME PAGE AFTER BUILD SUCCESS COMMIT FOR AUTO BUILD";
 	}
 
 	public static void main(String[] args) {
